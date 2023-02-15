@@ -7,6 +7,11 @@ import (
 
 func testpasstest(Employee) {
 	gorm.Model
-Name:
-	""
+	Name:   "ssssssss"
+	Email:	"attaweae@gmail.com"
+	EmployeeID: 	"J12345678"
+
+	ok err := govalidation.validationstuck(Employee) ;
+	err().to()
+
 }
